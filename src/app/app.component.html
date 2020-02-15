@@ -4,7 +4,8 @@
   <br>
   <button (click)="generateQRCode()">Generate QR Code</button>
 
-  <ngx-qrcode *ngIf="display" id="qrCodeImage" [qrc-element-type]="elementType" [qrc-value]="value">
+  <ngx-qrcode *ngIf="display" id="qrCodeImage" [qrc-element-type]="elementType" [qrc-value]="value"
+    qrc-class="my-class">
   </ngx-qrcode>
 
   <br>
